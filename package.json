@@ -1,0 +1,22 @@
+{
+  "name": "examplenodecapm",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap-cloud-sdk/http-client": "^3.8.1",
+    "@sap/cds": "^7",
+    "express": "^4",
+    "nock": "^13.3.8",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "sqlite3": "^5"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "main": "index.js",
+  "author": ""
+}
