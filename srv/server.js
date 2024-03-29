@@ -3,7 +3,7 @@ module.exports = cds.server;
 const nock = require('nock');
 
 if (process.env.NODE_ENV !== 'production') {
-  nock('http://jsonplaceholder.typicode.com', {allowUnmocked: true})
+  nock('http://149.129.239.170:4004', {allowUnmocked: true})
     .persist()
     .get(resource => resource.includes('/todos'))
     .reply(200, [{

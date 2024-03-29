@@ -15,8 +15,8 @@ module.exports = cds.service.impl(async function () {
           token: 'asasadadadadad'
         }],
         proxyConfiguration:{
-          "host":"jsonplaceholder.typicode.com",
-          "port":"80",
+          "host":"149.129.239.170",
+          "port":"4004",
           "protocol":"http",
           "headers":{
              "Proxy-Authorization":"Bearer eU2miwtIVTKu65nDkjrYEcE06EFdkA"
@@ -54,8 +54,8 @@ module.exports = cds.service.impl(async function () {
           postId: 1
         },
         proxyConfiguration:{
-          "host":"jsonplaceholder.typicode.com",
-          "port":"80",
+          "host":"149.129.239.170",
+          "port":"4004",
           "protocol":"http",
           "headers":{
              "Proxy-Authorization":"Bearer SkoLWnx-dDCt5UkbKnC4K0U1axvk3c1vkMU2miwtIVTKu65nDkj"
